@@ -1,15 +1,19 @@
-# web-tutorial
-دوره آموزش برنامه نویسی وب
+# دوره آموزش برنامه نویسی وب
+## مقدمه
+<img width="2240" height="2139" alt="image" src="https://github.com/user-attachments/assets/25f72354-3147-4362-ae0e-858cd8c0807f" />
+<img width="1600" height="899" alt="image" src="https://github.com/user-attachments/assets/e8878395-a53c-4e6f-b6be-9a9c68417b33" />
 
-## ویدیو 1
-### html
-- `<!DOCTYPE html>`
-- html
-- head
-- body
-- h1 to h6
-- p
-- br
-- a, href
-- img, src, alt, width, height
-### css
+
+```html
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- اطلاعات head یا همان سر داخل اینجا نوشته میشود -->
+    </head>
+    <body>
+        <!-- اطلاعات body یا همن بدنه داخل اینجا نوشته میشود -->
+    </body>
+</html>
+```
+- بخش head شامل اطلاعاتی هست که بیشترشون ممکنه دیده نشوند ولی مرورگر و موتور های جست و جو به آن ها نیاز دارند. مثل: عنوان تب صفحه، آیکون تب صفحه، نام نویسنده، ...
+- بخش body شامل اطلاعاتی هست که برای کاربر نمایش داده میشوند مثل تیتر ها، پاراگراف ها، عکس ها، لینک ها، ...
