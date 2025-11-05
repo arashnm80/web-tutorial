@@ -5,6 +5,9 @@
     <img height="300" alt="image" src="https://github.com/user-attachments/assets/e8878395-a53c-4e6f-b6be-9a9c68417b33" />
 </div>
 
+- پسوند فایل های هر نوع `html.` یا `css.` یا `js.` باید باشه.
+- برای نوشتن آنلاین کد های وب میتوانید سرچ کنید `run html css js online` و یکی از وبسایت های به دست آمده را استفاده کنید.
+- برای نوشتن کد ها در ویندوز میتوانید از هر ویرایشگر نوشته دلخواه مثل notepad یا vscode استفاده کنید. 
 
 ```html
 <!DOCTYPE html>
