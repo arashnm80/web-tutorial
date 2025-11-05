@@ -1,7 +1,9 @@
 # دوره آموزش برنامه نویسی وب
 ## مقدمه
-<img width="2240" height="2139" alt="image" src="https://github.com/user-attachments/assets/25f72354-3147-4362-ae0e-858cd8c0807f" />
-<img width="1600" height="899" alt="image" src="https://github.com/user-attachments/assets/e8878395-a53c-4e6f-b6be-9a9c68417b33" />
+<div>
+    <img height="300" alt="image" src="https://github.com/user-attachments/assets/25f72354-3147-4362-ae0e-858cd8c0807f" />
+    <img height="300" alt="image" src="https://github.com/user-attachments/assets/e8878395-a53c-4e6f-b6be-9a9c68417b33" />
+</div>
 
 
 ```html
