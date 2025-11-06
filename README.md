@@ -63,3 +63,24 @@ https://www.learn-html.org
 ```html
 <a href="https://digikala.com">لینک به یه وبسایت</a>
 ```
+- تگ img برای قرار دادن عکس در صفحه (صفت های width و height برای تنظیم عرض و ارتفاع به کار میروند که میتوان یک یا هر دوی آن ها را تنظیم نمود):
+```html
+<img src="https://picsum.photos/536/354" height="300" width="500">
+```
+- تگ ol برای لیست شماره گذاری شده (برای هر آیتم جدید در لیست یک تگ li میگذاریم):
+```html
+<ol>
+    <li>cat</li>
+    <li>dog</li>
+    <li>chicken</li>
+<ol>
+```
+
+- تگ ul برای لیست بدون شماره (برای هر آیتم جدید در لیست یک تگ li میگذاریم):
+```html
+<ul>
+    <li>cat</li>
+    <li>dog</li>
+    <li>chicken</li>
+<ul>
+```
