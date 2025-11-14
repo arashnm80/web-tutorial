@@ -92,13 +92,17 @@ https://www.learn-html.org
 ```html
 <div style="background-color: gold;">
     <a href="https://digikala.com">دیجی کالا</a>
+    <br>
     <a href="https://divar.ir">دیوار</a>
+    <br>
     <a href="https://torob.com">ترب</a>
 </div>
 
 <span style="background-color: aqua;">
     <a href="https://digikala.com">دیجی کالا</a>
+    <br>
     <a href="https://divar.ir">دیوار</a>
+    <br>
     <a href="https://torob.com">ترب</a>
 </span>
 ```
