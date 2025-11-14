@@ -84,6 +84,24 @@ https://www.learn-html.org
     <li>chicken</li>
 <ul>
 ```
+- نوشتن یک تگ داخل تگ دیگر. مثلا یک لینک با تگ a را داخل یک تگ p مینویسیم:
+```html
+<p>this is a link of <a href="https://digikala.com">digikala</a> that we have written here.</p>
+```
+- تگ div و span برای نوشتن یا گروه بندی مجموعه ای از تگ های دیگر به کار میروند. تگ div از نوع block-level هست و تمام فضای در دسترس تا انتهای خط رو برای خودش اشغال میکنه. تگ span از نوع inline-level هست و فقط به اندازه نوشته داخلش فضا اشغال میکنه. مثال استفاده:
+```html
+<div style="background-color: gold;">
+    <a href="https://digikala.com">دیجی کالا</a>
+    <a href="https://divar.ir">دیوار</a>
+    <a href="https://torob.com">ترب</a>
+</div>
+
+<span style="background-color: aqua;">
+    <a href="https://digikala.com">دیجی کالا</a>
+    <a href="https://divar.ir">دیوار</a>
+    <a href="https://torob.com">ترب</a>
+</span>
+```
 ## قالب نوشتار CSS
 از css برای تعیین استایل های وبسایتمون استفاده میکنیم.
 
