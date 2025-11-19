@@ -25,6 +25,8 @@ https://www.learn-html.org
 - بخش head شامل اطلاعاتی هست که بیشترشون ممکنه دیده نشوند ولی مرورگر و موتور های جست و جو به آن ها نیاز دارند. مثل: عنوان تب صفحه، آیکون تب صفحه، نام نویسنده، ...
 - بخش body شامل اطلاعاتی هست که برای کاربر نمایش داده میشوند مثل تیتر ها، پاراگراف ها، عکس ها، لینک ها، ...
 
+<img width="1280" height="688" alt="اhtml template from w3schools" src="https://github.com/user-attachments/assets/b244908e-4e8a-4da5-a6fc-4ac94ee28ea9" />
+
 تنظیم عنوان تب و نوشتن پاراگراف با تگ های `<title>` و `<p>` :
 ```html
 <!DOCTYPE html>
@@ -204,11 +206,16 @@ background-color: red;
 ```
 - تعیین محل قرار گیری نوشته (وسط یا چپ یا راست):
 ```css
-text-align: center; /* comment: وسط چین کردن نوشته */
-text-align: left; /* comment: چپ چین کردن نوشته */
-text-align: right; /* comment: راست چین کردن نوشته */
+text-align: center; /* وسط چین کردن نوشته */
+text-align: left; /* چپ چین کردن نوشته */
+text-align: right; /* راست چین کردن نوشته */
+text-align: justify;   /* کشیده کردن متن بین دو طرف */
 ```
 - کامنت گذاری: همانطور که در کد بالا میبینید نوشته های قرار گرفته داخل `/* */` کامنت در نظر گرفته میشوند و اجرا نمیشوند.
+- تنظیم راست به چپ یا چپ به راست بودن نوشته به صورت خودکار:
+```css
+unicode-bidi: plaintext;
+```
 - تعیین نوع display به block یا inline:
 ```css
 display: block; /* تمام فضا تا انتهای خط را اشعال میکند */
@@ -270,5 +277,12 @@ line-height: 1;   /* خطوط چسبیده به هم */
 line-height: 1.2; /* مقدار پیش‌فرض تقریبی مرورگر */
 line-height: 1.5; /* خوانایی بهتر، مقدار رایج */
 line-height: 1.8; /* فاصله زیاد و متن بازتر */
-line-height: normal; /* مقدار پیش‌فرض مرورگر */
+```
+- تعیین فاصله بین حروف با letter-spacing:
+```css
+letter-spacing: 0px;   /* فاصله عادی بین حروف */
+letter-spacing: 1px;   /* کمی فاصله بیشتر */
+letter-spacing: 2px;   /* فاصله مشخص و قابل توجه */
+letter-spacing: -1px;  /* کمی فشرده‌تر شدن حروف */
+letter-spacing: normal; /* مقدار پیش‌فرض مرورگر */
 ```
