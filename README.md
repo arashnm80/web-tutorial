@@ -232,3 +232,29 @@ width: 50%; /* درصد نسبت به والد */
 ```css
 opacity: 0.5; /* نصف شفاف */
 ```
+- تعیین فونت استفاده شده با font-family:
+```css
+font-family: serif; /* دارای انتهای تزئینی و رسمی */
+font-family: sans-serif; /* ساده، تمیز و بدون تزئینات پایانی */
+font-family: monospace; /* دارای عرض یکسان برای همه حروف */
+font-family: cursive; /* شبیه دست‌نویس و روان */
+font-family: fantasy; /* تزئینی و غیررسمی */
+```
+- تعیین سایز فونت با font-size:
+```css
+font-size: 16px;
+```
+- تعیین ضخامت نوشته با font-weight:
+```css
+font-weight: 100; /* بسیار نازک */
+font-weight: 200; /* نازک */
+font-weight: 300; /* کمی نازک */
+font-weight: 400; /* وزن عادی متن */
+font-weight: 500; /* کمی کلفت‌تر از عادی */
+font-weight: 600; /* نیمه‌کلفت */
+font-weight: 700; /* کلفت */
+font-weight: 800; /* بسیار کلفت */
+font-weight: 900; /* بیشترین ضخامت */
+font-weight: bold; /* همان حدود 700 */
+font-weight: normal; /* همان حدود 400 */
+```
