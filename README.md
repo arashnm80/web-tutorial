@@ -213,6 +213,7 @@ text-align: right; /* comment: راست چین کردن نوشته */
 ```css
 display: block; /* تمام فضا تا انتهای خط را اشعال میکند */
 display: inline; /* فقط به اندازه خودش فضا اشغال میکند */
+display: none; /* حذف کامل باکس نوشته که باعث پنهان شدنش میشود */
 ```
 - رنگ نوشته با color:
 ```css
@@ -257,4 +258,17 @@ font-weight: 800; /* بسیار کلفت */
 font-weight: 900; /* بیشترین ضخامت */
 font-weight: bold; /* همان حدود 700 */
 font-weight: normal; /* همان حدود 400 */
+```
+- تعیین استایل نوشته با font-style:
+```css
+font-style: normal; /* حالت عادی و استاندارد متن */
+font-style: italic; /* کج یا ایتالیک */
+```
+- تعیین فاصله بین خطوط نوشته با line-height:
+```css
+line-height: 1;   /* خطوط چسبیده به هم */
+line-height: 1.2; /* مقدار پیش‌فرض تقریبی مرورگر */
+line-height: 1.5; /* خوانایی بهتر، مقدار رایج */
+line-height: 1.8; /* فاصله زیاد و متن بازتر */
+line-height: normal; /* مقدار پیش‌فرض مرورگر */
 ```
