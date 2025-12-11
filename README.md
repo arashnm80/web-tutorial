@@ -306,3 +306,47 @@ letter-spacing: normal; /* مقدار پیش‌فرض مرورگر */
     </body>
 </html>
 ```
+### نحوه استفاده از class
+گاهی قصد داریم یک تم تکراری را برای تعدادی از بخش های مشابه اعمال کنیم. در این صورت از class استفاده میکنیم. توجه کنید که استفاده از آن مشابه id هست با این تفاوت که ابتدای id در css علامت # و ابتدای class علامت نقطه را میگذاریم. همچنین اگر بخواهیم از ترکیب چند class استفاده کنیم میتوانیم بین آنها فاصله بگذاریم. نمونه:
+```html
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <meta charset="utf-8">
+</head>
+<body>
+    <h2 id="titr1" class="rast-chin">سلام</h2>
+    <h2 id="titr2" class="rast-chin">مثال</h2>
+    <h2 class="rast-chin">سگ</h2>
+    <h2 class="rast-chin">گربه</h2>
+    
+    <h2 class="chap-chin kam-rang">انسان</h2>
+    <h2 class="chap-chin kam-rang">توپ</h2>
+    <h2 class="chap-chin">پنیر</h2>
+    <h2 class="chap-chin">شکر</h2>
+</body>
+</html>
+```
+
+```css
+#titr1 {
+    background-color: aqua;
+}
+
+#titr2 {
+    background-color: chartreuse;
+}
+
+.chap-chin {
+    text-align: left;
+}
+
+.rast-chin {
+    text-align: right;
+}
+
+.kam-rang {
+    opacity: 0.5;
+}
+```
