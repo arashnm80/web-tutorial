@@ -353,3 +353,11 @@ css:
     opacity: 0.5;
 }
 ```
+
+### آموزش box model
+<img width="1920" height="1080" alt="box model" src="https://github.com/user-attachments/assets/5a75f596-757f-4fb8-8e5d-db4b862cf46c" />
+
+- محتوای متنی -> content
+- فاصله نوشته تا مرز -> padding
+- مرز -> border
+- فاصله بیرون مرز -> margin
