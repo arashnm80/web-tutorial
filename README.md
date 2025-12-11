@@ -360,3 +360,37 @@ css:
 - فاصله نوشته تا مرز -> padding
 - مرز -> border
 - فاصله بیرون مرز -> margin
+
+### مرز یا border
+با استفاده از `border-style` میتوانید نوع مرز بخش مورد نظر را انتخاب کنید. نمونه:
+```css
+border-style: none;    /* بدون خط دور */
+border-style: solid;   /* خط ساده و یک‌دست */
+border-style: dashed;  /* خط خط‌چین (خط‌های کوتاه جدا از هم) */
+border-style: dotted;  /* خط نقطه‌چین */
+border-style: double;  /* خط دوتایی موازی */
+border-style: groove;  /* شیار سه‌بعدی (ظاهر فرو رفته) */
+border-style: ridge;   /* برآمده سه‌بعدی (بر عکس groove) */
+border-style: inset;   /* ظاهر سه‌بعدی فرو رفته برای کل عنصر */
+border-style: outset;  /* ظاهر سه‌بعدی برآمده برای کل عنصر */
+border-style: hidden;  /* مشابه none ولی در جدول‌ها رفتار خاص دارد */
+```
+با استفاده از `border-width` میتوانید ضخامت مرز رو تعیین کنید. مثلا:
+```css
+border-width: 2px;
+```
+با استفاده از `border-color` میتوانید رنگ مرز را تعیین کنید. مثلا:
+```css
+border-color: red;
+```
+اگر بخواهید برای بالا، پایین، چپ یا راست مرز، شکل های متفاوتی انتخاب کنید میتوانید از استایل های زیر استفاده کنید:
+```css
+border-top-style: dotted;    /* استایل مرز بالا */
+border-right-style: solid;   /* استایل مرز راست */
+border-bottom-style: dotted; /* استایل مرز پایین */
+border-left-style: solid;    /* استایل مرز چپ */
+```
+برای گرد کردن گوشه border میتوانید از استایل `border-radius` استفاده کنید. عدد بزرگتر به معنای انحنای بیشتر خواهد بود. مثلا:
+```css
+border-radius: 5px;
+```
