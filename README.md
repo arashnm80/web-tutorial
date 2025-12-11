@@ -315,7 +315,6 @@ html:
 <html>
 <head>
     <link rel="stylesheet" href="styles.css">
-    <meta charset="utf-8">
 </head>
 <body>
     <h2 id="titr1" class="rast-chin">سلام</h2>
