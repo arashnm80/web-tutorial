@@ -425,3 +425,71 @@ padding-left: 80px;    /* فاصله داخلیِ چپ */
 میتونید از سایت های زیر استفاده کنید:
 - github.com
 - cloudflare.com
+
+## نوشتن کد جاوا اسکریپت
+راه اول اینه که داخل تگ script که در انتهای body قرار میگیره کد ها رو بنویسیم. برای هر عملکرد میتونیم یه function یا اصطلاحا تابع تعریف کنیم و کار هایی که قراره انجام بده رو داخلش مشخص کنیم. بعد میشه اون تابع رو به یه دکمه دلخواه متصل کرد. نمونه:
+```html
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <div id="dokmeha">
+            <button onclick="najafi()">بهنیا مستخدمی</button>
+            <button onclick="shotoreBahaleMan()">کسری حسنیان</button>
+        </div>
+        <script>
+            function najafi() {
+                document.getElementById("dokmeha").style.backgroundColor = "blue";
+                document.getElementById("dokmeha").style.border = "dotted";
+                document.getElementById("dokmeha").style.margin = "50px";
+                document.getElementById("dokmeha").style.borderRadius = "10px";
+                document.getElementById("dokmeha").style.opacity = "0.5";
+            }
+
+            function shotoreBahaleMan() {
+                document.getElementById("dokmeha").style.backgroundColor = "red";
+                document.getElementById("dokmeha").style.border = "dashed";
+                document.getElementById("dokmeha").style.margin = "0px";
+                document.getElementById("dokmeha").style.borderRadius = "0px";
+                document.getElementById("dokmeha").style.opacity = "1";
+            }
+        </script>
+    </body>
+</html>
+```
+راه دیگه اینه که یه فایل جداگونه با پسوند js بسازیم و اون رو در انتهای body به فایل html مون متصل کنیم. نمونه:
+```html
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <div id="dokmeha">
+            <button onclick="najafi()">بهنیا مستخدمی</button>
+            <button onclick="shotoreBahaleMan()">کسری حسنیان</button>
+        </div>
+        <script src="behnia.js"></script>
+    </body>
+</html>
+```
+
+```js
+function najafi() {
+    document.getElementById("dokmeha").style.backgroundColor = "blue";
+    document.getElementById("dokmeha").style.border = "dotted";
+    document.getElementById("dokmeha").style.margin = "50px";
+    document.getElementById("dokmeha").style.borderRadius = "10px";
+    document.getElementById("dokmeha").style.opacity = "0.5";
+}
+
+function shotoreBahaleMan() {
+    document.getElementById("dokmeha").style.backgroundColor = "red";
+    document.getElementById("dokmeha").style.border = "dashed";
+    document.getElementById("dokmeha").style.margin = "0px";
+    document.getElementById("dokmeha").style.borderRadius = "0px";
+    document.getElementById("dokmeha").style.opacity = "1";
+}
+```
