@@ -460,6 +460,8 @@ padding-left: 80px;    /* فاصله داخلیِ چپ */
 </html>
 ```
 راه دیگه اینه که یه فایل جداگونه با پسوند js بسازیم و اون رو در انتهای body به فایل html مون متصل کنیم. نمونه:
+
+html:
 ```html
 <!DOCTYPE html>
 <html>
@@ -476,6 +478,7 @@ padding-left: 80px;    /* فاصله داخلیِ چپ */
 </html>
 ```
 
+js:
 ```js
 function najafi() {
     document.getElementById("dokmeha").style.backgroundColor = "blue";
